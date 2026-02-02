@@ -18,11 +18,10 @@ export function Navbar() {
       right={0}
       h={16}
       bg="rgba(26, 26, 46, 0.95)"
-      _light={{ bg: 'rgba(255, 255, 255, 0.95)' }}
       backdropFilter="blur(16px)"
       borderBottom="1px solid"
       borderColor="rgba(255, 255, 255, 0.1)"
-      _light={{ borderColor: 'gray.200' }}
+      _light={{ bg: 'rgba(255, 255, 255, 0.95)', borderColor: 'gray.200' }}
       zIndex={100}
       px={6}
     >
