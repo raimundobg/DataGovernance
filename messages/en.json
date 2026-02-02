@@ -1,0 +1,272 @@
+{
+  "common": {
+    "appName": "Exposure & Compliance Signals",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "download": "Download",
+    "export": "Export",
+    "import": "Import",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "noData": "No data available",
+    "pageNotFound": "Page not found",
+    "errorOccurred": "Something went wrong",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "import": "Import",
+    "results": "Results",
+    "recommendations": "Recommendations",
+    "evidence": "Evidence Pack"
+  },
+  "dashboard": {
+    "title": "Risk Dashboard",
+    "subtitle": "Identity exposure risk assessment overview",
+    "globalScore": "Global Risk Score",
+    "totalIdentities": "Total Identities",
+    "exposed": "Exposed",
+    "critical": "Critical",
+    "high": "High Risk",
+    "medium": "Medium Risk",
+    "low": "Low Risk",
+    "topRisks": "Top 20 Risks",
+    "byRole": "By Role",
+    "byArea": "By Area",
+    "lastCheck": "Last Check",
+    "noCheckYet": "No check performed yet",
+    "riskDistribution": "Risk Distribution",
+    "getStarted": "Get Started",
+    "quickActions": "Quick Actions",
+    "importMore": "Import More Identities",
+    "viewResults": "View Detailed Results",
+    "reviewRecommendations": "Review Recommendations",
+    "exportEvidence": "Export Evidence Pack",
+    "noDataYet": "No data yet",
+    "noDataDescription": "Start by importing a CSV file with your identity data, then run a check to assess exposure risk."
+  },
+  "import": {
+    "title": "Import Identities",
+    "subtitle": "Upload a CSV file with identity data",
+    "dropzone": "Drag and drop your CSV file here, or click to browse",
+    "supported": "Supported format: CSV with columns email, name, role, area, criticality",
+    "preview": "Preview",
+    "rows": "Rows",
+    "validRows": "Valid rows",
+    "invalidRows": "Invalid rows",
+    "duplicates": "Duplicates removed",
+    "startImport": "Start Import",
+    "importing": "Importing...",
+    "importSuccess": "Import completed successfully",
+    "importError": "Import failed",
+    "cancel": "Cancel",
+    "email": "Email",
+    "name": "Name",
+    "role": "Role",
+    "area": "Area",
+    "criticality": "Criticality",
+    "moreRows": "... and {count} more rows"
+  },
+  "results": {
+    "title": "Check Results",
+    "subtitle": "Identity exposure check results",
+    "runCheck": "Run Check",
+    "running": "Running check...",
+    "progress": "Progress",
+    "identity": "Identity",
+    "email": "Email",
+    "role": "Role",
+    "area": "Area",
+    "criticality": "Criticality",
+    "score": "Risk Score",
+    "breaches": "Breaches",
+    "lastBreach": "Last Breach",
+    "status": "Status",
+    "exposed": "Exposed",
+    "safe": "Safe",
+    "unknown": "Unknown",
+    "markExposed": "Mark as Exposed",
+    "sortBy": "Sort by",
+    "filterByRole": "Filter by role",
+    "filterBySeverity": "Filter by severity",
+    "importFirst": "Import First",
+    "noIdentities": "No identities imported",
+    "noIdentitiesDescription": "Import a CSV file with identity data to run an exposure check.",
+    "identitiesReady": "{count} identities ready",
+    "clickRunCheck": "Click \"Run Check\" to start the exposure assessment.",
+    "noData": "No data",
+    "search": "Search...",
+    "showingResults": "Showing {shown} of {total} results",
+    "checkFailed": "Check failed",
+    "checkCompleted": "Check completed"
+  },
+  "recommendations": {
+    "title": "Recommendations",
+    "subtitle": "Actionable recommendations by audience",
+    "audience": {
+      "security": "Security Team",
+      "legal": "Legal / Compliance",
+      "executive": "Executive Summary"
+    },
+    "priority": "Priority",
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "affectedIdentities": "Affected Identities",
+    "suggestedAction": "Suggested Action",
+    "deadline": "Suggested Deadline",
+    "markDone": "Mark as Done",
+    "done": "Done",
+    "compliance": "Compliance References",
+    "noRecommendations": "No recommendations available",
+    "total": "total",
+    "pending": "pending",
+    "completed": "completed",
+    "noRecommendationsFor": "No recommendations for {audience}"
+  },
+  "templates": {
+    "secCriticalReset": {
+      "title": "Force Password Reset for Critical Risk Identities",
+      "description": "{count} identities have critical risk scores and require immediate password reset.",
+      "action": "Force immediate password reset and enable MFA for all critical risk users. Per ISO 27001:2022 (Control A.5.17) and Chile Law 21.719 (Art. 14 - Security Measures)."
+    },
+    "secAdminAudit": {
+      "title": "Audit Administrator Account Access",
+      "description": "{count} administrator accounts have been found in data breaches.",
+      "action": "Review and rotate credentials for all exposed administrator accounts. Consider implementing just-in-time access. Per ISO 27001:2022 (Control A.8.2) and ISO 27002:2022 (Control 5.15)."
+    },
+    "secMfaDeployment": {
+      "title": "Enable Multi-Factor Authentication",
+      "description": "{count} high-risk identities should have MFA enabled immediately.",
+      "action": "Deploy MFA for all high-risk users and monitor for suspicious activity. Required by ISO 27001:2022 (Control A.8.5 - Secure Authentication)."
+    },
+    "secFinanceAudit": {
+      "title": "Review Finance Team Access",
+      "description": "{count} finance team members have breach exposure.",
+      "action": "Audit access to financial systems and rotate credentials for exposed accounts. Per ISO 27002:2022 (Control 5.18 - Access Rights)."
+    },
+    "secMonitorRecent": {
+      "title": "Monitor Recently Exposed Accounts",
+      "description": "{count} identities appear in breaches from the last 90 days.",
+      "action": "Implement enhanced monitoring for recently exposed accounts. Check for signs of compromise. Per ISO 27001:2022 (Control A.8.16) and Chile Law 21.719 (Art. 14 bis - Breach Notification)."
+    },
+    "legalBreachAssessment": {
+      "title": "Assess Recent Breach Impact",
+      "description": "{count} identities appear in breaches from the last 90 days.",
+      "action": "Conduct impact assessment and determine notification requirements per Chile Data Protection Law 21.719 (Art. 14 bis and Art. 14 ter - Notification Obligations)."
+    },
+    "legalDocumentation": {
+      "title": "Document Incident Response Actions",
+      "description": "Maintain audit trail of all remediation actions taken for {count} exposed identities.",
+      "action": "Document all password resets, MFA deployments, and user notifications. Retain evidence for compliance per ISO 27001:2022 (Control A.5.24) and Chile Law 21.719 (Art. 11 - Activity Records)."
+    },
+    "legalRegulatoryReview": {
+      "title": "Review Regulatory Obligations",
+      "description": "With {percent}% exposure rate, review applicable data protection regulations.",
+      "action": "Assess Chile Data Protection Law 21.719 requirements for breach notification (Art. 14 bis - 72-hour deadline to notify the Data Protection Agency)."
+    },
+    "legalVendorNotification": {
+      "title": "Notify Affected Business Partners",
+      "description": "Critical exposure may require notification to business partners and vendors.",
+      "action": "Review contracts and determine if breach notification to partners is required per Chile Law 21.719 (Art. 14 quater - Data Processor Responsibilities)."
+    },
+    "execRiskSummary": {
+      "title": "Executive Risk Summary",
+      "description": "{percent}% of monitored identities have breach exposure. {criticalCount} require immediate attention.",
+      "action": "Review security posture and approve emergency remediation budget if needed. Non-compliance with ISO 27001:2022 and Chile Law 21.719 may result in fines up to 10,000 UTM."
+    },
+    "execBudgetReview": {
+      "title": "Security Investment Review",
+      "description": "Current exposure levels suggest need for enhanced security controls.",
+      "action": "Review and approve budget for additional security tools and training. ISO 27001:2022 (Control A.5.2) requires adequate resource allocation for information security."
+    },
+    "execTraining": {
+      "title": "Security Awareness Training",
+      "description": "Schedule security training focusing on password hygiene and phishing awareness.",
+      "action": "Approve and schedule organization-wide security awareness training. Required by ISO 27002:2022 (Control 6.3 - Information Security Awareness)."
+    },
+    "execPolicyUpdate": {
+      "title": "Update Security Policies",
+      "description": "Review and update password and access management policies.",
+      "action": "Approve updated security policies addressing credential management and breach response. Per ISO 27001:2022 (Control A.5.1) and ISO 27002:2022 (Control 5.1 - Security Policies)."
+    }
+  },
+  "evidence": {
+    "title": "Evidence Pack",
+    "subtitle": "Tamper-evident audit trail and export",
+    "timeline": "Event Timeline",
+    "eventType": "Event Type",
+    "timestamp": "Timestamp",
+    "hash": "Hash",
+    "previousHash": "Previous Hash",
+    "exportJson": "Export JSON",
+    "exportPdf": "Export PDF",
+    "exportAll": "Export All",
+    "verifyIntegrity": "Verify Integrity",
+    "integrityValid": "Chain integrity verified",
+    "integrityInvalid": "Chain integrity compromised",
+    "noEvidence": "No evidence to export yet",
+    "noEvidenceDescription": "Run an exposure check first to generate an evidence pack.",
+    "goToResults": "Go to Results",
+    "eventsRecorded": "{count} events recorded",
+    "noEventsYet": "No events recorded yet",
+    "events": {
+      "project": {
+        "created": "Project Created"
+      },
+      "identities": {
+        "imported": "Identities Imported"
+      },
+      "check": {
+        "started": "Check Started",
+        "completed": "Check Completed"
+      },
+      "action": {
+        "marked_done": "Action Marked Done"
+      },
+      "evidence": {
+        "exported": "Evidence Exported"
+      }
+    }
+  },
+  "risk": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "finance": "Finance",
+    "clinical": "Clinical",
+    "support": "Support",
+    "other": "Other"
+  },
+  "criticality": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Validation error. Please check your input.",
+    "unauthorized": "Unauthorized. Please log in again.",
+    "notFound": "Resource not found.",
+    "csvParsing": "Error parsing CSV file.",
+    "invalidFormat": "Invalid file format."
+  }
+}

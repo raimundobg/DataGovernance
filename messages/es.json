@@ -1,0 +1,272 @@
+{
+  "common": {
+    "appName": "Exposicion y Senales de Cumplimiento",
+    "loading": "Cargando...",
+    "error": "Ocurrio un error",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "back": "Atras",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "download": "Descargar",
+    "export": "Exportar",
+    "import": "Importar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "noData": "No hay datos disponibles",
+    "pageNotFound": "Pagina no encontrada",
+    "errorOccurred": "Algo salio mal",
+    "darkMode": "Modo Oscuro",
+    "lightMode": "Modo Claro"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "import": "Importar",
+    "results": "Resultados",
+    "recommendations": "Recomendaciones",
+    "evidence": "Paquete de Evidencia"
+  },
+  "dashboard": {
+    "title": "Panel de Riesgo",
+    "subtitle": "Resumen de evaluacion de riesgo de exposicion de identidades",
+    "globalScore": "Puntuacion Global de Riesgo",
+    "totalIdentities": "Total de Identidades",
+    "exposed": "Expuestas",
+    "critical": "Critico",
+    "high": "Alto Riesgo",
+    "medium": "Riesgo Medio",
+    "low": "Bajo Riesgo",
+    "topRisks": "Top 20 Riesgos",
+    "byRole": "Por Rol",
+    "byArea": "Por Area",
+    "lastCheck": "Ultima Verificacion",
+    "noCheckYet": "Sin verificacion realizada",
+    "riskDistribution": "Distribucion de Riesgo",
+    "getStarted": "Comenzar",
+    "quickActions": "Acciones Rapidas",
+    "importMore": "Importar Mas Identidades",
+    "viewResults": "Ver Resultados Detallados",
+    "reviewRecommendations": "Revisar Recomendaciones",
+    "exportEvidence": "Exportar Paquete de Evidencia",
+    "noDataYet": "Sin datos aun",
+    "noDataDescription": "Comienza importando un archivo CSV con tus datos de identidades, luego ejecuta una verificacion para evaluar el riesgo de exposicion."
+  },
+  "import": {
+    "title": "Importar Identidades",
+    "subtitle": "Sube un archivo CSV con datos de identidades",
+    "dropzone": "Arrastra y suelta tu archivo CSV aqui, o haz clic para explorar",
+    "supported": "Formato soportado: CSV con columnas email, name, role, area, criticality",
+    "preview": "Vista previa",
+    "rows": "Filas",
+    "validRows": "Filas validas",
+    "invalidRows": "Filas invalidas",
+    "duplicates": "Duplicados eliminados",
+    "startImport": "Iniciar Importacion",
+    "importing": "Importando...",
+    "importSuccess": "Importacion completada exitosamente",
+    "importError": "Importacion fallida",
+    "cancel": "Cancelar",
+    "email": "Correo",
+    "name": "Nombre",
+    "role": "Rol",
+    "area": "Area",
+    "criticality": "Criticidad",
+    "moreRows": "... y {count} filas mas"
+  },
+  "results": {
+    "title": "Resultados de Verificacion",
+    "subtitle": "Resultados de verificacion de exposicion de identidades",
+    "runCheck": "Ejecutar Verificacion",
+    "running": "Ejecutando verificacion...",
+    "progress": "Progreso",
+    "identity": "Identidad",
+    "email": "Correo",
+    "role": "Rol",
+    "area": "Area",
+    "criticality": "Criticidad",
+    "score": "Puntuacion de Riesgo",
+    "breaches": "Brechas",
+    "lastBreach": "Ultima Brecha",
+    "status": "Estado",
+    "exposed": "Expuesto",
+    "safe": "Seguro",
+    "unknown": "Desconocido",
+    "markExposed": "Marcar como Expuesto",
+    "sortBy": "Ordenar por",
+    "filterByRole": "Filtrar por rol",
+    "filterBySeverity": "Filtrar por severidad",
+    "importFirst": "Importar Primero",
+    "noIdentities": "Sin identidades importadas",
+    "noIdentitiesDescription": "Importa un archivo CSV con datos de identidades para ejecutar una verificacion de exposicion.",
+    "identitiesReady": "{count} identidades listas",
+    "clickRunCheck": "Haz clic en \"Ejecutar Verificacion\" para iniciar la evaluacion de exposicion.",
+    "noData": "Sin datos",
+    "search": "Buscar...",
+    "showingResults": "Mostrando {shown} de {total} resultados",
+    "checkFailed": "Verificacion fallida",
+    "checkCompleted": "Verificacion completada"
+  },
+  "recommendations": {
+    "title": "Recomendaciones",
+    "subtitle": "Recomendaciones accionables por audiencia",
+    "audience": {
+      "security": "Equipo de Seguridad",
+      "legal": "Legal / Cumplimiento",
+      "executive": "Resumen Ejecutivo"
+    },
+    "priority": "Prioridad",
+    "critical": "Critico",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo",
+    "affectedIdentities": "Identidades Afectadas",
+    "suggestedAction": "Accion Sugerida",
+    "deadline": "Fecha Limite Sugerida",
+    "markDone": "Marcar como Hecho",
+    "done": "Hecho",
+    "compliance": "Cumplimiento Normativo",
+    "noRecommendations": "Sin recomendaciones disponibles",
+    "total": "total",
+    "pending": "pendientes",
+    "completed": "completadas",
+    "noRecommendationsFor": "Sin recomendaciones para {audience}"
+  },
+  "templates": {
+    "secCriticalReset": {
+      "title": "Restablecer Contrasenas de Identidades con Riesgo Critico",
+      "description": "{count} identidades tienen puntuaciones de riesgo critico y requieren restablecimiento inmediato de contrasena.",
+      "action": "Forzar restablecimiento inmediato de contrasena y habilitar MFA para todos los usuarios con riesgo critico. Segun ISO 27001:2022 (Control A.5.17) y Ley 21.719 de Chile (Art. 14 - Medidas de Seguridad)."
+    },
+    "secAdminAudit": {
+      "title": "Auditar Acceso de Cuentas de Administrador",
+      "description": "{count} cuentas de administrador han sido encontradas en filtraciones de datos.",
+      "action": "Revisar y rotar credenciales de todas las cuentas de administrador expuestas. Considerar implementar acceso just-in-time. Conforme a ISO 27001:2022 (Control A.8.2) e ISO 27002:2022 (Control 5.15)."
+    },
+    "secMfaDeployment": {
+      "title": "Habilitar Autenticacion Multi-Factor",
+      "description": "{count} identidades de alto riesgo deberian tener MFA habilitado inmediatamente.",
+      "action": "Desplegar MFA para todos los usuarios de alto riesgo y monitorear actividad sospechosa. Requerido por ISO 27001:2022 (Control A.8.5 - Autenticacion Segura)."
+    },
+    "secFinanceAudit": {
+      "title": "Revisar Acceso del Equipo de Finanzas",
+      "description": "{count} miembros del equipo de finanzas tienen exposicion a filtraciones.",
+      "action": "Auditar acceso a sistemas financieros y rotar credenciales de cuentas expuestas. Segun ISO 27002:2022 (Control 5.18 - Derechos de Acceso)."
+    },
+    "secMonitorRecent": {
+      "title": "Monitorear Cuentas Recientemente Expuestas",
+      "description": "{count} identidades aparecen en filtraciones de los ultimos 90 dias.",
+      "action": "Implementar monitoreo mejorado para cuentas recientemente expuestas. Verificar senales de compromiso. Conforme a ISO 27001:2022 (Control A.8.16) y Ley 21.719 de Chile (Art. 14 bis - Notificacion de Brechas)."
+    },
+    "legalBreachAssessment": {
+      "title": "Evaluar Impacto de Brecha Reciente",
+      "description": "{count} identidades aparecen en filtraciones de los ultimos 90 dias.",
+      "action": "Realizar evaluacion de impacto y determinar requisitos de notificacion segun Ley 21.719 de Proteccion de Datos Personales de Chile (Art. 14 bis y Art. 14 ter - Obligaciones de Notificacion)."
+    },
+    "legalDocumentation": {
+      "title": "Documentar Acciones de Respuesta a Incidentes",
+      "description": "Mantener rastro de auditoria de todas las acciones de remediacion tomadas para {count} identidades expuestas.",
+      "action": "Documentar todos los restablecimientos de contrasena, despliegues de MFA y notificaciones a usuarios. Retener evidencia para cumplimiento segun ISO 27001:2022 (Control A.5.24) y Ley 21.719 de Chile (Art. 11 - Registro de Actividades)."
+    },
+    "legalRegulatoryReview": {
+      "title": "Revisar Obligaciones Regulatorias",
+      "description": "Con {percent}% de tasa de exposicion, revisar regulaciones de proteccion de datos aplicables.",
+      "action": "Evaluar requisitos de la Ley 21.719 de Proteccion de Datos Personales de Chile para notificacion de brechas (Art. 14 bis - Plazo de 72 horas para notificar a la Agencia de Proteccion de Datos)."
+    },
+    "legalVendorNotification": {
+      "title": "Notificar a Socios Comerciales Afectados",
+      "description": "La exposicion critica puede requerir notificacion a socios comerciales y proveedores.",
+      "action": "Revisar contratos y determinar si se requiere notificacion de brecha a socios segun Ley 21.719 de Chile (Art. 14 quater - Responsabilidad de Encargados de Tratamiento)."
+    },
+    "execRiskSummary": {
+      "title": "Resumen Ejecutivo de Riesgos",
+      "description": "{percent}% de las identidades monitoreadas tienen exposicion a filtraciones. {criticalCount} requieren atencion inmediata.",
+      "action": "Revisar postura de seguridad y aprobar presupuesto de remediacion de emergencia si es necesario. El incumplimiento de ISO 27001:2022 y Ley 21.719 de Chile puede resultar en multas de hasta 10.000 UTM."
+    },
+    "execBudgetReview": {
+      "title": "Revision de Inversion en Seguridad",
+      "description": "Los niveles actuales de exposicion sugieren la necesidad de controles de seguridad mejorados.",
+      "action": "Revisar y aprobar presupuesto para herramientas de seguridad adicionales y capacitacion. ISO 27001:2022 (Control A.5.2) requiere asignacion adecuada de recursos para seguridad de la informacion."
+    },
+    "execTraining": {
+      "title": "Capacitacion en Conciencia de Seguridad",
+      "description": "Programar capacitacion de seguridad enfocada en higiene de contrasenas y conciencia de phishing.",
+      "action": "Aprobar y programar capacitacion de conciencia de seguridad para toda la organizacion. Requerido por ISO 27002:2022 (Control 6.3 - Concienciacion sobre Seguridad de la Informacion)."
+    },
+    "execPolicyUpdate": {
+      "title": "Actualizar Politicas de Seguridad",
+      "description": "Revisar y actualizar politicas de gestion de contrasenas y acceso.",
+      "action": "Aprobar politicas de seguridad actualizadas que aborden la gestion de credenciales y respuesta a brechas. Conforme a ISO 27001:2022 (Control A.5.1) e ISO 27002:2022 (Control 5.1 - Politicas de Seguridad)."
+    }
+  },
+  "evidence": {
+    "title": "Paquete de Evidencia",
+    "subtitle": "Rastro de auditoria a prueba de manipulacion y exportacion",
+    "timeline": "Linea de Tiempo de Eventos",
+    "eventType": "Tipo de Evento",
+    "timestamp": "Marca de Tiempo",
+    "hash": "Hash",
+    "previousHash": "Hash Anterior",
+    "exportJson": "Exportar JSON",
+    "exportPdf": "Exportar PDF",
+    "exportAll": "Exportar Todo",
+    "verifyIntegrity": "Verificar Integridad",
+    "integrityValid": "Integridad de cadena verificada",
+    "integrityInvalid": "Integridad de cadena comprometida",
+    "noEvidence": "Sin evidencia para exportar aun",
+    "noEvidenceDescription": "Ejecuta una verificacion de exposicion primero para generar un paquete de evidencia.",
+    "goToResults": "Ir a Resultados",
+    "eventsRecorded": "{count} eventos registrados",
+    "noEventsYet": "Sin eventos registrados aun",
+    "events": {
+      "project": {
+        "created": "Proyecto Creado"
+      },
+      "identities": {
+        "imported": "Identidades Importadas"
+      },
+      "check": {
+        "started": "Verificacion Iniciada",
+        "completed": "Verificacion Completada"
+      },
+      "action": {
+        "marked_done": "Accion Marcada como Hecha"
+      },
+      "evidence": {
+        "exported": "Evidencia Exportada"
+      }
+    }
+  },
+  "risk": {
+    "critical": "Critico",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo"
+  },
+  "roles": {
+    "admin": "Administrador",
+    "finance": "Finanzas",
+    "clinical": "Clinico",
+    "support": "Soporte",
+    "other": "Otro"
+  },
+  "criticality": {
+    "high": "Alta",
+    "medium": "Media",
+    "low": "Baja"
+  },
+  "errors": {
+    "networkError": "Error de red. Por favor verifica tu conexion.",
+    "serverError": "Error del servidor. Por favor intenta mas tarde.",
+    "validationError": "Error de validacion. Por favor verifica tu entrada.",
+    "unauthorized": "No autorizado. Por favor inicia sesion nuevamente.",
+    "notFound": "Recurso no encontrado.",
+    "csvParsing": "Error al analizar archivo CSV.",
+    "invalidFormat": "Formato de archivo invalido."
+  }
+}

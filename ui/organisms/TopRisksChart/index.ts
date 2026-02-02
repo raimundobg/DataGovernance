@@ -1,0 +1,1 @@
+export { TopRisksChart } from './TopRisksChart';

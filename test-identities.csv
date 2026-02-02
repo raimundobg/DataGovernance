@@ -1,0 +1,21 @@
+email,name,role,area,criticality
+carlos.garcia@company.com,Carlos Garcia,admin,IT,high
+maria.lopez@company.com,Maria Lopez,finance,Finance,high
+john.smith@company.com,John Smith,admin,Engineering,high
+ana.martinez@company.com,Ana Martinez,clinical,Operations,medium
+david.wilson@company.com,David Wilson,support,Customer Support,low
+sofia.hernandez@company.com,Sofia Hernandez,finance,Finance,medium
+michael.brown@company.com,Michael Brown,admin,Executive,high
+laura.rodriguez@company.com,Laura Rodriguez,other,Marketing,low
+james.taylor@company.com,James Taylor,clinical,Human Resources,medium
+emma.johnson@company.com,Emma Johnson,support,Sales,low
+robert.davis@company.com,Robert Davis,admin,IT,high
+isabella.moore@company.com,Isabella Moore,finance,Legal,high
+william.gonzalez@company.com,William Gonzalez,other,Engineering,medium
+carmen.miller@company.com,Carmen Miller,clinical,Operations,medium
+miguel.jones@company.com,Miguel Jones,support,Customer Support,low
+sarah.williams@company.com,Sarah Williams,admin,Executive,high
+ana.garcia@company.com,Ana Garcia,finance,Finance,high
+carlos.smith@company.com,Carlos Smith,other,Marketing,low
+maria.johnson@company.com,Maria Johnson,clinical,Human Resources,medium
+john.martinez@company.com,John Martinez,support,IT,low

@@ -1,0 +1,12 @@
+Place your PWA icons here:
+- icon-192.png (192x192 pixels)
+- icon-512.png (512x512 pixels)
+
+Recommended: Use a simple design with the letters "EC" on a blue (#0073e6) background.
+
+You can generate these icons using tools like:
+- https://www.pwabuilder.com/
+- https://realfavicongenerator.net/
+- Any image editor
+
+The icons should be square PNG files with transparent or solid backgrounds.
