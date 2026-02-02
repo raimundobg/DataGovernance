@@ -37,11 +37,10 @@ export function Sidebar() {
       bottom={0}
       w={64}
       bg="rgba(26, 26, 46, 0.8)"
-      _light={{ bg: 'rgba(255, 255, 255, 0.9)' }}
       backdropFilter="blur(16px)"
       borderRight="1px solid"
       borderColor="rgba(255, 255, 255, 0.1)"
-      _light={{ borderColor: 'gray.200' }}
+      _light={{ bg: 'rgba(255, 255, 255, 0.9)', borderColor: 'gray.200' }}
       py={6}
       px={3}
       display={{ base: 'none', lg: 'block' }}
@@ -58,9 +57,8 @@ export function Sidebar() {
                 py={3}
                 borderRadius="lg"
                 bg={active ? 'rgba(66, 153, 225, 0.2)' : 'transparent'}
-                _light={{ bg: active ? 'blue.50' : 'transparent' }}
                 color={active ? 'blue.300' : 'gray.400'}
-                _light={{ color: active ? 'blue.600' : 'gray.600' }}
+                _light={{ bg: active ? 'blue.50' : 'transparent', color: active ? 'blue.600' : 'gray.600' }}
                 _hover={{
                   bg: active ? 'rgba(66, 153, 225, 0.2)' : 'rgba(255, 255, 255, 0.05)',
                   color: active ? 'blue.300' : 'white',
