@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Text, VStack, useTheme } from '@chakra-ui/react';
+import { Box, Text, VStack } from '@chakra-ui/react';
 import { useTheme as useNextTheme } from 'next-themes';
 import { getRiskLevel, RiskLevel } from '@/config/constants';
 
